@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Based Nine Numerology</string>
+    <string name="PedirDatos_btnFecha">Select</string>
+    <string name="PedirDatos_ejApellido">Stewart Johnson</string>
+    <string name="PedirDatos_ejNombre">Kaylee</string>
+    <string name="PedirDatos_fechaNo">Select a date</string>
+    <string name="PedirDatos_txtApellido">Last:</string>
+    <string name="PedirDatos_txtNombre">First:</string>
+    <string name="PedirDatos_txtfecha">Date:</string>
+    <string name="PedirDatos_Calcular">Calculate</string>
+    <string name="PedirDatos_Error_Calcular">Did you complete all the fields?</string>
+    <string name="PedirDatos_PrimerPaso">Your Information</string>
+
+    <string name="AJS">AJS</string>
+    <string name="BKT">BKT</string>
+    <string name="CLU">CLU</string>
+    <string name="DMV">DMV</string>
+    <string name="ENW">ENW</string>
+    <string name="FOX">FOX</string>
+    <string name="GPY">GPY</string>
+    <string name="HQZ">HQZ</string>
+    <string name="RI">RI</string>
+    <string name="ResultadosnumExpresion">Expression Number:</string>
+    <string name="ResultadosTexto">Results</string>
+    <string name="ResultadoInicial">0</string>
+    <string name="ResultadosPorcentaje5">5-7%</string>
+    <string name="ResultadosPorcentaje8">8%</string>
+    <string name="ResultadoPorcentaje82">8-10%</string>
+    <string name="ResultadoPorcentaje10">10-12%</string>
+    <string name="ResultadoPorcentaje17">17-20%</string>
+    <string name="ResultadosAV1">AV Horizontal</string>
+    <string name="ResultadosAV2">AV Dan Millman</string>
+    <string name="ResultadosAV3">AV Vertical</string>
+    <string name="ResultadosAnio">Critical Y.</string>
+    <string name="ResultadosAnioVida">Life  Year</string>
+    <string name="ResultadosFuerzaD">StrengthD</string>
+    <string name="ResultadosFuerzaH">StrengthH</string>
+    <string name="ResultadosFuerzaV">StrengthV</string>
+    <string name="ResultadosPP">PP</string>
+
+</resources>

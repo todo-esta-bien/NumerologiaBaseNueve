@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.com.bit01.numerologiabasenueve.ActivityResultado"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/casilla8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="36sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/casilla5"
+        android:layout_marginTop="49dp"
+        app:layout_constraintTop_toBottomOf="@+id/casilla5"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/casilla5" />
+
+    <TextView
+        android:id="@+id/casilla2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="36sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/casilla5"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/casilla5"
+        app:layout_constraintTop_toTopOf="@+id/porcentaje2" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BKT"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/casilla2"
+        app:layout_constraintRight_toRightOf="@+id/textView50"
+        app:layout_constraintTop_toBottomOf="@+id/casilla2" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosPorcentaje8"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView49"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintLeft_toLeftOf="@+id/porcentaje2" />
+
+    <TextView
+        android:id="@+id/porcentaje2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosPorcentaje8"
+        android:layout_marginStart="89dp"
+        android:layout_marginEnd="89dp"
+        app:layout_constraintRight_toLeftOf="@+id/porcentaje9"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/porcentaje3"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="@+id/porcentaje3"
+        app:layout_constraintLeft_toRightOf="@+id/textView34"
+        android:layout_marginLeft="89dp"
+        android:layout_marginRight="89dp" />
+
+    <TextView
+        android:id="@+id/casilla5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="36sp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="41dp"
+        app:layout_constraintTop_toBottomOf="@+id/casilla2"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/porcentaje5"
+        android:layout_marginLeft="11dp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ENW"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView54"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoPorcentaje17"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/porcentaje5"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toTopOf="@+id/porcentaje5" />
+
+    <TextView
+        android:id="@+id/porcentaje5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosPorcentaje8"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView49"
+        app:layout_constraintTop_toTopOf="@+id/casilla5" />
+
+    <TextView
+        android:id="@+id/casilla6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="36sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/casilla9"
+        android:layout_marginTop="41dp"
+        app:layout_constraintTop_toBottomOf="@+id/casilla3"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/casilla9" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FOX"
+        android:layout_marginEnd="2dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView66"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="@+id/textView66"
+        android:layout_marginRight="2dp" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:text="@string/RI"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView38"
+        android:layout_marginTop="14dp"
+        app:layout_constraintTop_toTopOf="@+id/textView38"
+        android:layout_marginRight="1dp" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoPorcentaje82"
+        app:layout_constraintRight_toLeftOf="@+id/porcentaje6"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/porcentaje6"
+        app:layout_constraintTop_toTopOf="@+id/porcentaje6" />
+
+    <TextView
+        android:id="@+id/porcentaje6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosPorcentaje8"
+        app:layout_constraintRight_toLeftOf="@+id/casilla6"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="11dp"
+        app:layout_constraintTop_toTopOf="@+id/casilla6"
+        android:layout_marginRight="11dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoPorcentaje10"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/porcentaje9"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="@+id/porcentaje9" />
+
+    <TextView
+        android:id="@+id/porcentaje9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosPorcentaje8"
+        app:layout_constraintRight_toLeftOf="@+id/casilla9"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintTop_toTopOf="@+id/casilla9"
+        android:layout_marginRight="12dp" />
+
+    <TextView
+        android:id="@+id/casilla4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="36sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/casilla7"
+        android:layout_marginTop="41dp"
+        app:layout_constraintTop_toBottomOf="@+id/casilla1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/casilla7" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DMV"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView42"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toTopOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoPorcentaje10"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/casilla4"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="28dp" />
+
+    <TextView
+        android:id="@+id/porcentaje4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosPorcentaje8"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView42"
+        app:layout_constraintRight_toRightOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/casilla9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="36sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/idAnioVida"
+        android:layout_marginTop="49dp"
+        app:layout_constraintTop_toBottomOf="@+id/casilla6"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/idAnioVida" />
+
+    <TextView
+        android:id="@+id/casilla3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="36sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/casilla6"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/casilla6"
+        app:layout_constraintTop_toTopOf="@+id/porcentaje3" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CLU"
+        android:layout_marginEnd="1dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/casilla3"
+        app:layout_constraintRight_toRightOf="@+id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/casilla3"
+        android:layout_marginRight="1dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoPorcentaje10"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView29"
+        app:layout_constraintRight_toRightOf="@+id/porcentaje3"
+        android:layout_marginBottom="1dp" />
+
+    <TextView
+        android:id="@+id/porcentaje3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosPorcentaje8"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintRight_toLeftOf="@+id/casilla3"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginTop="41dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/casilla1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="36sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/casilla4"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/casilla4"
+        app:layout_constraintTop_toTopOf="@+id/porcentaje1" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AJS"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/casilla1"
+        app:layout_constraintRight_toRightOf="@+id/porcentaje1"
+        app:layout_constraintTop_toBottomOf="@+id/casilla1" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoPorcentaje10"
+        app:layout_constraintRight_toLeftOf="@+id/textView33"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/textView50"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView33"
+        app:layout_constraintTop_toTopOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/porcentaje1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosPorcentaje8"
+        app:layout_constraintRight_toLeftOf="@+id/casilla1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/textView34"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:id="@+id/casilla7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="36sp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="49dp"
+        app:layout_constraintTop_toBottomOf="@+id/casilla4"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/textView18"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/GPY"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView18"
+        android:layout_marginTop="14dp"
+        app:layout_constraintTop_toTopOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosPorcentaje5"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/casilla7"
+        app:layout_constraintRight_toRightOf="@+id/textView41"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView70"
+        android:layout_marginLeft="2dp" />
+
+    <TextView
+        android:id="@+id/porcentaje7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosPorcentaje8"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/textView18"
+        app:layout_constraintRight_toRightOf="@+id/textView18"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/HQZ"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView6"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toTopOf="@+id/casilla8" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosPorcentaje8"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintLeft_toLeftOf="@+id/porcentaje8" />
+
+    <TextView
+        android:id="@+id/porcentaje8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosPorcentaje8"
+        app:layout_constraintRight_toLeftOf="@+id/casilla8"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/textView6"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="11dp" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosnumExpresion"
+        android:textSize="18sp"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView72"
+        app:layout_constraintBaseline_toBaselineOf="@+id/numExpresion"
+        tools:layout_constraintBaseline_creator="1" />
+
+    <TextView
+        android:id="@+id/numExpresion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="18sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/idAVVertical"
+        android:layout_marginTop="21dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/idAVVertical"
+        app:layout_constraintTop_toTopOf="@+id/textView72" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosAV1"
+        android:textSize="18sp"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView71"
+        app:layout_constraintBaseline_toBaselineOf="@+id/idAVHorizontal"
+        tools:layout_constraintBaseline_creator="1" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosAV2"
+        android:textSize="18sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView82"
+        android:layout_marginTop="21dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView80"
+        android:layout_marginLeft="25dp" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosAV3"
+        android:textSize="18sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView71"
+        app:layout_constraintTop_toBottomOf="@+id/textView71" />
+
+    <TextView
+        android:id="@+id/idAVHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/idAVDan"
+        app:layout_constraintLeft_toLeftOf="@+id/idAVDan" />
+
+    <TextView
+        android:id="@+id/idAVDan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="@+id/idAVVertical"
+        app:layout_constraintBottom_toTopOf="@+id/idAVVertical" />
+
+    <TextView
+        android:id="@+id/idAVVertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="18sp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/numExpresion"
+        android:layout_marginStart="9dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/textView71"
+        android:layout_marginLeft="9dp" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosAnio"
+        android:textSize="18sp"
+        app:layout_constraintRight_toLeftOf="@+id/textView82"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintTop_toBottomOf="@+id/textView80"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView82" />
+
+    <TextView
+        android:id="@+id/idAnioC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="18sp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/idPP"
+        app:layout_constraintRight_toRightOf="@+id/idAnioVida"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/idAnioVida" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosAnioVida"
+        android:textSize="18sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView76"
+        android:layout_marginTop="36dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView65" />
+
+    <TextView
+        android:id="@+id/idAnioVida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="18sp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/idAnioC"
+        android:layout_marginEnd="73dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="73dp" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosPP"
+        android:textSize="18sp"
+        android:layout_marginEnd="14dp"
+        app:layout_constraintRight_toLeftOf="@+id/idAnioC"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="@+id/textView76"
+        android:layout_marginRight="14dp" />
+
+    <TextView
+        android:id="@+id/idPP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="18sp"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/idAnioC"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView82"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/idAnioC" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosFuerzaH"
+        android:textSize="18sp"
+        app:layout_constraintRight_toRightOf="@+id/textView86"
+        android:layout_marginRight="1dp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView86"
+        android:layout_marginEnd="1dp" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosFuerzaV"
+        android:textSize="18sp"
+        app:layout_constraintRight_toLeftOf="@+id/idFuerzaV"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="61dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadosFuerzaD"
+        android:textSize="18sp"
+        app:layout_constraintRight_toRightOf="@+id/textView85"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView85" />
+
+    <TextView
+        android:id="@+id/idFuerzaH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="18sp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/idFuerzaD"
+        app:layout_constraintRight_toRightOf="@+id/idPP"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/idPP" />
+
+    <TextView
+        android:id="@+id/idFuerzaD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="18sp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/idFuerzaV"
+        app:layout_constraintRight_toRightOf="@+id/idFuerzaH"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/idFuerzaH" />
+
+    <TextView
+        android:id="@+id/idFuerzaV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoInicial"
+        android:textSize="18sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/idFuerzaD"
+        app:layout_constraintTop_toBottomOf="@+id/textView86"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/idFuerzaD" />
+</android.support.constraint.ConstraintLayout>

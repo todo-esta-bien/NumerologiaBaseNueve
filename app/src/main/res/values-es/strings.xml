@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Numerologia Base Nueve</string>
+    <string name="PedirDatos_Calcular">Calcular</string>
+    <string name="PedirDatos_Error_Calcular">Llenaste todos los campos?</string>
+    <string name="PedirDatos_PrimerPaso">Tu información</string>
+    <string name="PedirDatos_btnFecha">Selecciona</string>
+    <string name="PedirDatos_ejApellido">Neri Guzmán</string>
+    <string name="PedirDatos_ejNombre">Leticia Verónica</string>
+    <string name="PedirDatos_fechaNo">Selecciona Fecha</string>
+    <string name="PedirDatos_txtApellido">Apellidos:</string>
+    <string name="PedirDatos_txtNombre">Nombre:</string>
+    <string name="PedirDatos_txtfecha">Fecha:</string>
+    <string name="AJS">AJS</string>
+    <string name="BKT">BKT</string>
+    <string name="CLU">CLU</string>
+    <string name="DMV">DMV</string>
+    <string name="ENW">ENW</string>
+    <string name="FOX">FOX</string>
+    <string name="GPY">GPY</string>
+    <string name="HQZ">HQZ</string>
+    <string name="RI">RI</string>
+    <string name="ResultadosAV1">AV Horizontal</string>
+    <string name="ResultadosAV2">AV Dan Millman</string>
+    <string name="ResultadosAV3">AV Vertical</string>
+    <string name="ResultadosAnio">Año C.</string>
+    <string name="ResultadosFuerzaH">FuerzaH</string>
+    <string name="ResultadosFuerzaV">FuerzaV</string>
+    <string name="ResultadosFuerzaD">FuerzaD</string>
+    <string name="ResultadosAnioVida">Año Vida</string>
+    <string name="ResultadosPP">PP</string>
+    <string name="ResultadoInicial">0</string>
+    <string name="ResultadoPorcentaje10">10-12%</string>
+    <string name="ResultadoPorcentaje17">17-20%</string>
+    <string name="ResultadoPorcentaje82">8-10%</string>
+    <string name="ResultadosPorcentaje8">8%</string>
+    <string name="ResultadosTexto">Resultados</string>
+    <string name="ResultadosPorcentaje5">5-7%</string>
+    <string name="ResultadosnumExpresion">No. Expresión:</string>
+</resources>
